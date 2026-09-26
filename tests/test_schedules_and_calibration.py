@@ -4,7 +4,7 @@ import random
 import pytest
 from conftest import energy, swap
 
-from simannealing import acceptance_probability, anneal, calibrate, constant, geometric, linear
+from simple_annealing import acceptance_probability, anneal, calibrate, constant, geometric, linear
 
 
 # --- schedules ----------------------------------------------------------------

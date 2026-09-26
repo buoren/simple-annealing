@@ -23,4 +23,4 @@ jobs:
       - run: pip install -e ".[dev]"
       - run: pytest -q
       - run: ruff check .
-      - run: mypy --strict src/simannealing
+      - run: mypy --strict src/simple_annealing

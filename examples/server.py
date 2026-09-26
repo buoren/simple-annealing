@@ -36,7 +36,7 @@ import random
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
-from simannealing import anneal
+from simple_annealing import anneal
 
 POINTS = [(math.cos(i / 3.0) * 50 + i, math.sin(i / 2.0) * 50 - i) for i in range(40)]
 

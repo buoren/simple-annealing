@@ -5,7 +5,7 @@ from dataclasses import FrozenInstanceError
 import pytest
 from conftest import energy, swap
 
-from simannealing import Result, anneal, constant, linear
+from simple_annealing import Result, anneal, constant, linear
 
 
 def run(numbers, **kwargs):

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "simannealing"
+name = "simple-annealing"
 version = "0.1.0"
 description = "Simulated annealing that is safe to run inside a server: deterministic, deadline-bounded, thread-safe, silent."
 readme = "README.md"
@@ -39,11 +39,11 @@ dependencies = []
 dev = ["pytest>=8.0", "ruff>=0.14,<0.15", "mypy>=1.8"]
 
 [project.urls]
-Homepage = "https://github.com/buoren/py-simannealing"
-Issues = "https://github.com/buoren/py-simannealing/issues"
+Homepage = "https://github.com/buoren/simple-annealing"
+Issues = "https://github.com/buoren/simple-annealing/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/simannealing"]
+packages = ["src/simple_annealing"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

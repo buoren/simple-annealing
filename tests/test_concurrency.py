@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 import pytest
 from conftest import energy, swap
 
-from simannealing import anneal
+from simple_annealing import anneal
 
 
 def solve(seed, numbers):

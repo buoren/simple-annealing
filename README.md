@@ -1,4 +1,4 @@
-# simannealing
+# simple-annealing
 
 Simulated annealing that is safe to run **inside a server**.
 
@@ -9,7 +9,7 @@ process without interfering with each other or with you.
 Pure Python, no dependencies, one function.
 
 ```sh
-pip install simannealing
+pip install simple-annealing
 ```
 
 ---
@@ -42,7 +42,7 @@ packaging is the handful of decisions that go wrong when you run one as part of 
 Two functions and a budget:
 
 ```python
-from simannealing import anneal
+from simple_annealing import anneal
 
 def energy(route):                      # lower is better
     return sum(distance(a, b) for a, b in zip(route, route[1:]))
@@ -348,7 +348,7 @@ rather than paying for the sampling walk each time.
 pip install -e ".[dev]"
 pytest
 ruff check .
-mypy --strict src/simannealing
+mypy --strict src/simple_annealing
 ```
 
 Python 3.10+. No runtime dependencies.

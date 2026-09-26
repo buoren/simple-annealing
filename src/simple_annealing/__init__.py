@@ -1,6 +1,6 @@
-"""simannealing — simulated annealing that is safe to run inside a server.
+"""simple_annealing — simulated annealing that is safe to run inside a server.
 
-    from simannealing import anneal
+    from simple_annealing import anneal
 
     result = anneal(
         route,

@@ -9,7 +9,7 @@ from __future__ import annotations
 import math
 import random
 
-from simannealing import anneal
+from simple_annealing import anneal
 
 CITIES = {
     "Amsterdam": (52.37, 4.90), "Berlin": (52.52, 13.40), "Copenhagen": (55.68, 12.57),
